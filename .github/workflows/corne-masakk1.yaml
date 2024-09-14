@@ -11,4 +11,4 @@ jobs:
       shield: '["corne_left","corne_right"]'
       kconfig: '["CONFIG_ZMK_DISPLAY=y CONFIG_ZMK_RGB_UNDERGLOW=y CONFIG_WS2812_STRIP=y"]'
       nav: '["vi"]'
-    
+      branches: '["zmkfirmware/zmk/main ftc/zmk/mouse-ftc"]'
