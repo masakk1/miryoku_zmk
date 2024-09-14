@@ -10,6 +10,6 @@ jobs:
       board: '["nice_nano_v2"]'
       shield: '["corne_left","corne_right"]'
       kconfig: '["CONFIG_ZMK_DISPLAY=y CONFIG_ZMK_RGB_UNDERGLOW=y CONFIG_WS2812_STRIP=y"]'
-      config: '[#define MIRYOKU_CLIPBOARD_WIN]'
+      custom_config: '[#define MIRYOKU_CLIPBOARD_WIN]'
       nav: '["vi"]'
 #      branches: '["zmkfirmware/zmk/main ftc/zmk/mouse-ftc"]'
