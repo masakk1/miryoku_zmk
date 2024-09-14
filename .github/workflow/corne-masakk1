@@ -1,0 +1,14 @@
+# Made by masakk1
+
+name: 'Build for my corne'
+on: workflow_dispatch
+jobs:
+  build:
+    uses: ./.github/workflows/main.yml
+    secrets: inherit
+    with:
+      board: '["nice_nano_v2"]'
+      shield: '["corne_left","corne_right"]'
+      kconfig: '["CONFIG_ZMK_DISPLAY=y CONFIG_ZMK_RGB_UNDERGLOW=y CONFIG_WS2812_STRIP=y"]'
+      nav: '["vi"]'
+    
