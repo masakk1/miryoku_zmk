@@ -1,6 +1,3 @@
-# Copyright 2022 Manna Harbour
-# https://github.com/manna-harbour/miryoku
-
 name: 'Build for my corne'
 on: workflow_dispatch
 jobs:
